@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .half-width{ width: 50%; }
+  .quarter-width{ width: 25%; }
+  .blank-icon{
+    width: 163px;
+    height: 81px;
+  }
+  .blank-group{
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+  .flex-footer{
+    justify-content: space-between;
+    flex-direction: row !important;
+    &_item:first-child{
+      margin-left: 0;
+    }
+    &_item:last-child{
+      margin-left: 0;
+      input{ margin-bottom: 10px;}
+    }
+    &_item{
+      margin-left: 15px;
+      text-align: left !important;
+    }
+  }
+}
